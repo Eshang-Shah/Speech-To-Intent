@@ -1,12 +1,23 @@
-#Project Overview
-This project implements a speech-to-intent conversion system designed for the Raspberry Pi, utilizing TensorFlow and Librosa for machine learning model training and audio processing.
+# Speech-to-Intent Conversion on Raspberry Pi
 
-#Key Features
-Speech-to-Intent Conversion: Transforms spoken language inputs into actionable intent representations, enabling a variety of interactive and automation applications.
-Machine Learning Integration: Employs custom-trained machine learning models built with TensorFlow to accurately identify user intent from audio.
-Audio Processing with Librosa: Utilizes the Librosa library for feature extraction and preprocessing of audio data to enhance model accuracy and efficiency.
+## Overview
+This project implements a speech-to-intent conversion system optimized for the Raspberry Pi. Using TensorFlow for machine learning and Librosa for audio processing, the system translates spoken language inputs into actionable intent representations, suitable for interactive and automation applications.
 
-#Technical Highlights
-Platform: Raspberry Pi, providing a compact and low-cost solution for real-time, on-device processing.
-Modeling Framework: TensorFlow, used to design and develop the intent recognition models.
-Audio Feature Extraction: Leveraged Librosa for robust audio processing, including feature extraction techniques such as MFCCs, chroma, and spectral contrast, tailored to speech signal characteristics.
+## Features
+- **Speech-to-Intent Conversion**: Transforms voice commands into machine-readable intents.
+- **Machine Learning with TensorFlow**: Custom-trained models built to recognize various user intents from speech data.
+- **Audio Processing with Librosa**: Extracts audio features for improved accuracy in recognizing speech patterns and intents.
+
+## Technical Details
+- **Platform**: Raspberry Pi (ideal for real-time, on-device processing).
+- **Modeling Framework**: [TensorFlow](https://www.tensorflow.org/) for designing and training the intent recognition model.
+- **Audio Feature Extraction**: [Librosa](https://librosa.org/) for efficient processing of audio data, including MFCCs, chroma, and spectral contrast.
+
+### Prerequisites
+- Raspberry Pi (any model with adequate processing power)
+- Python 3.7 or higher
+- TensorFlow and Librosa libraries
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
